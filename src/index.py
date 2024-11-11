@@ -1,9 +1,17 @@
 from varasto import Varasto
 
+global \
+    muuttujajollaonihanliiiiiiiiiiiiiiiiiiiiiiiiiiiiiikaaaaaaaaaaaaaaaaaaaaaaaaaaaapituuttaa
+
+for i in range(1, 10):
+    for j in range(1, 10):
+        for k in range(1, 10):
+            pass
+
 
 def main():
     mehua = Varasto(100.0)
-    olutta = Varasto(100.0, 20.2)
+    olutta = Varasto(100.0, 20)
 
     print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {mehua}")
@@ -27,8 +35,8 @@ def main():
     huono = Varasto(-100.0)
     print(huono)
 
-    print("Varasto(100.0, -50.7)")
-    huono = Varasto(100.0, -50.7)
+    print("Varasto(100.0, -50)")
+    huono = Varasto(100.0, -50)
     print(huono)
 
     print(f"Olutvarasto: {olutta}")
